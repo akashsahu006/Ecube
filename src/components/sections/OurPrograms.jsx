@@ -4,7 +4,7 @@ import OurProgramCard from '../Cards/OurProgramCard'
 
 const OurPrograms = () => {
   return (
-    <div className='px-24'>
+    <div className='px-24 mb-22'>
         <h1 className='mt-30 mb-16 text-h2'>Our Programs</h1>
         <div className=' grid grid-cols-2   place-content-cente gap-12'>
             {OurProgramData.map((program) => (

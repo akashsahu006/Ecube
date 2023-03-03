@@ -4,7 +4,7 @@ import ActiveButton from '../buttons/ActiveButton'
 
 const OurProgramCard = (props) => {
   return (
-    <div className=' rounded-xl shadow-lg flex flex-col h-140 w-150 '>
+    <div className=' rounded-xl flex flex-col h-140 w-150 border-2'>
         <div>
             <img src={image1} alt="..."/>
         </div>
@@ -21,7 +21,7 @@ const OurProgramCard = (props) => {
                 <h3 className='text-b3 mt-1 text-liteBlack'>{props.duration}</h3>
             </div>
             <div className='max-h-7.5 mt-6 mb-7'>
-                <h3 className='text-b3'>{props.body}</h3>
+                <h3 className='text-b3 text-justify'>{props.body}</h3>
             </div>
             <div className='flex justify-end items-center'>
                 <h3 className='text-b1 text-primary'>Know more</h3>
