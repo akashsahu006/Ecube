@@ -1,17 +1,16 @@
 import React from 'react'
-import image1 from "../../assets/Ourprogram1.png"
 import ActiveButton from '../buttons/ActiveButton'
 
 const OurProgramCard = (props) => {
   return (
-    <div className=' rounded-xl flex flex-col h-140 w-150 border-2'>
+    <div className=' rounded-xl  flex flex-col h-140 w-150'>
         <div>
-            <img src={image1} alt="..."/>
+            <img src={props.src} alt="..."/>
         </div>
-        <div className='p-5'>
+        <div className='p-5 rounded-b-xl bg-white border-1 border-cardLine'>
             <div className='flex items-center justify-between'>
                 <div>
-                    <h3 className='text-h4'>{props.title}</h3>
+                    <h3 className='text-H4'>{props.title}</h3>
                 </div>
                 <div>
                     <ActiveButton/>
