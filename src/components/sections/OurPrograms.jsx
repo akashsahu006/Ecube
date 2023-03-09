@@ -6,7 +6,7 @@ const OurPrograms = () => {
   return (
     <div className='px-24 mb-22'>
         <h1 className='mt-30 mb-16 text-H2'>Our Programs</h1>
-        <div className=' grid grid-cols-2   place-content-cente gap-12'>
+        <div className='w-full grid grid-cols-2   place-content-cente gap-12'>
             {OurProgramData.map((program) => (
                 <OurProgramCard title={program.title} id={program.id} status={program.status} duration={program.duration} body={program.body} src={program.src} />
             ))}
