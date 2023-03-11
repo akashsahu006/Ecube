@@ -7,9 +7,12 @@ module.exports = {
       'primary': "#1A98FF",
       'offwhite': "#E3E3E3",
       'active': "#DCEFFF",
+      'inactive': "#D8D8D8",
       'liteBlack': "#575757",
       'footer': "#F4F7FA",
       'cardLine': "#ABABAB",
+      'button': "#1A98FF",
+      'galleryMask': "#353535",
       },
       height: {
         '68': '68px',
@@ -37,9 +40,12 @@ module.exports = {
       fontFamily: {
         inter: "'Inter', sans-serif",
       },
+      backgroundImage: {
+        'TeamBackground': "url(/src/assets/Person.png)",
+      },
       fontSize: {
-        'h1': ['48px', {
-          lineHeight: '56px',
+        'h1': ['3rem', {
+          lineHeight: '3.5rem',
           fontWeight: '400',
           
         }],
@@ -60,8 +66,8 @@ module.exports = {
           lineHeight: '32px',
           fontWeight: '400',
         }],
-        'H1': ['48px', {
-          lineHeight: '56px',
+        'H1': ['3rem', {
+          lineHeight: '3.5rem',
           fontWeight: '700',
         }],
         'H2': ['40px', {
@@ -72,8 +78,8 @@ module.exports = {
           lineHeight: '38px',
           fontWeight: '700',
         }],
-        'H4': ['28px', {
-          lineHeight: '36px',
+        'H4': ['1.75rem', {
+          lineHeight: '2.25rem',
           fontWeight: '700',
           fontFamily: 'inter',
         }],
@@ -85,9 +91,17 @@ module.exports = {
           lineHeight: '32px',
           fontWeight: '600',
         }],
+        'H6': ['20px', {
+          lineHeight: '28px',
+          fontWeight: '700',
+        }],
         'b1': ['20px', {
           lineHeight: '28px',
           fontWeight: '400',
+        }],
+        'b1-1': ['20px', {
+          lineHeight: '28px',
+          fontWeight: '500',
         }],
         'b2': ['18px', {
           lineHeight: '26px',

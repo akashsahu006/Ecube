@@ -7,7 +7,7 @@ import image from "../../assets/hero1.png";
 
 const HeroSection = () => {
   return (
-    <div className='grid grid-cols-4 grid-row-1'>
+    <div className='w-full grid grid-cols-4 grid-row-1'>
         <div className='flex flex-col items-center justify-center my-[112px] col-start-1 col-end-5 row-start-1 z-10'>
         <div>
             <h1 className='text-H1  text-white'>EDUCATING. EMPOWERING. ENCOURAGING</h1>
