@@ -5,6 +5,7 @@ import HeroSection from '../components/sections/HeroSection'
 import OurTeamSection from '../components/sections/OurTeamSection'
 import Testimonials from '../components/sections/Testimonials'
 import Footer from '../components/sections/Footer'
+// import WhatsNewSection from '../components/sections/WhatsNewSection'
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
     <HeroSection/>
     <OurPrograms/>
     <OurCollaborationSection/>
+    {/* <WhatsNewSection/> */}
     <Testimonials/>
     <OurTeamSection/>
     <Footer/>

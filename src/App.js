@@ -10,8 +10,9 @@ import Testing from "./pages/Testing";
 function App() {
   return (
     <>
-    <NavBar/>
+    
     <BrowserRouter>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/AboutUs" element={<AboutUsPage/>}/>

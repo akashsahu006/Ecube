@@ -42,6 +42,7 @@ module.exports = {
       },
       backgroundImage: {
         'TeamBackground': "url(/src/assets/Person.png)",
+        'WhyChooseUsBackground': "url(/src/assets/WhyChooseUsBackground.png)",
       },
       fontSize: {
         'h1': ['3rem', {
