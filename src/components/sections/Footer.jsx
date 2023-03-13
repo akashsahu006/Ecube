@@ -20,7 +20,7 @@ const Footer = () => {
                 <ContactUsForm/>
             </div>
             <div >
-                <div className=' h-[300px] w-[268px] border-l-[0.4px] border-b-[0.4px] border-liteBlack'>
+                <div className=' h-[300px] w-[268px] border-l-[0.4px] border-b-[0.4px] border-cardLine'>
                     <h2 className='text-B1 flex justify-center '>Contact Us</h2>
                     <div className='px-[34px] mt-[22px] '>
                         <div className='flex w-[240px] items-start '>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border-l-[0.4px] pl-[30px] pt-[20px] border-liteBlack'>
+                <div className='border-l-[0.4px] pl-[30px] pt-[20px] border-cardLine'>
                     <h2 className='text-B1'>Follow us on</h2>
                     <div className='flex mt-[16px] space-x-4'>
                         <AiOutlineInstagram size={24}/>

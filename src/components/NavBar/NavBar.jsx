@@ -6,6 +6,7 @@ const NavBar = () => {
     <div className='bg-primary h-68 px-96 flex flex-row items-center justify-between'>
         <div>ECube</div>
         <div className='flex text-b3 flex-row text-offwhite space-x-48px'>
+            <Link to="/testing"><h3>testing</h3></Link>
             <Link to="/"><h3>Home</h3></Link>
             <Link to="/AboutUs"> <h3>About us</h3></Link>
             <h3>Programs</h3>

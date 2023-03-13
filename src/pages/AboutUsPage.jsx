@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player'
 import OurTeamSection from '../components/sections/OurTeamSection'
 import Footer from '../components/sections/Footer'
 import WhyChooseUs from '../components/sections/WhyChooseUs'
+import PersonInfoModal from '../components/Modals/PersonInfoModal'
 
 const AboutUsPage = () => {
   return (
@@ -20,6 +21,7 @@ const AboutUsPage = () => {
       </div>
       <WhyChooseUs/>
       <OurTeamSection/>
+      {/* <PersonInfoModal/> */}
       <Footer/>
     </div>
   )

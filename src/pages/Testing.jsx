@@ -1,9 +1,11 @@
 import React from 'react'
-
+import PersonInfoModal from '../components/Modals/PersonInfoModal'
 
 const Testing = () => {
   return (
-  <div>Testing</div>
+  <div>
+    <PersonInfoModal/>
+  </div>
     
   )
 }

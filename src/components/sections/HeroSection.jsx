@@ -3,6 +3,7 @@ import AboutUsButton from '../buttons/AboutUsButton'
 import ContactUsButton from '../buttons/ContactUsButton'
 import StatsCard from '../Cards/StatsCard'
 
+
 import image from "../../assets/hero1.png";
 
 const HeroSection = () => {
@@ -24,7 +25,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className='  col-start-1 col-end-5 row-start-1'>
-            <img src={image} className="w-full"  alt="" />
+            <img src={image} className="w-screen h-screen"  alt="" />
         </div>
     </div>
   )

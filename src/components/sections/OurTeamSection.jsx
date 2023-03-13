@@ -8,9 +8,9 @@ const OurTeamSection = () => {
             <h1 className='text-H2'>Our Team</h1>
         </div>
         <div className='w-full px-[96px] bg-footer py-[48px] mt-[3.75rem] flex justify-between'>
-            <OurTeamCard/>
-            <OurTeamCard/>
-            <OurTeamCard/>
+            <OurTeamCard title={"Priya Sharma"}/>
+            <OurTeamCard title={"Neha Sharma"}/>
+            <OurTeamCard title={"Ananya Pandey"}/>
         </div>
     </div>
     
